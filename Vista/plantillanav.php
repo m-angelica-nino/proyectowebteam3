@@ -10,13 +10,15 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Principal <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
       
+      <li class="nav-item">
+        <a class="nav-link" href="#">Acerca De</a>
+      </li>
+      <!------- forrmato para desabilitar un link
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
+      --->
     </ul>
     <ul class="navbar-nav mr-auto displey-none">
     
