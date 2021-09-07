@@ -40,10 +40,11 @@
     <script src="js/script.js"></script>
   </head>
   <body>
-    <?php
+  <?php
       include_once('plantillanav.php');
     ?>
     <div class="wrap">
+
       <h1>RESERVA TU HOTEL</h1>
       <section class="">
         <p>
