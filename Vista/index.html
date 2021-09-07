@@ -59,83 +59,113 @@
           <div class="card card-body">
             <!---FORMULARIO DE FILTROS -->
             <form>
-              <div class="form-group">
-                <label for="inputAddress">Ciudad</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputAddress"
-                  placeholder="1234 Main St"
-                />
-              </div>
-              <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputAddress2"
-                  placeholder="Apartment, studio, or floor"
-                />
-              </div>
+             
               <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">City</label>
-                  <input type="text" class="form-control" id="inputCity" />
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputState">Tipo de Habitación</label>
-                  <select id="inputState" class="form-control">
-                    <option selected>Suit</option>
-                    <option>Doble</option>
-                    <option>Sencilla</option>
-                  </select>
+
+                <div class="form-group col-md-10">
+                 <!------
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputAddress2"
+                      placeholder="Apartment, studio, or floor"
+                    />
+                  </div>
+                  -->
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">Ciudad</label>
+                      <input type="text" class="form-control" id="inputCity" />
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">Tipo de Habitación</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Suit</option>
+                        <option>Doble</option>
+                        <option>Sencilla</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Personas</label>
+                      <input type="number" value="2" min="1" max="8" class="form-control" />
+                    </div>
+                  </div>
+                  <!-- -->
+                  <div class="form-row">
+                    <div class="form-group col-md-5">
+                      <label for="inputCity">Rango De Precios</label>
+                      
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">$</span>
+                        </div>
+                        <input type="number" value="125000" min="1" max="1000000" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <div class="input-group-append">
+                          
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Desde</label>
+                      <input type="text" class="form-control" id="inputZip" />
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Hasta</label>
+                      <input type="text" class="form-control" id="inputZip" />
+                    </div>
+                  </div>
+
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputZip">Zip</label>
-                  <input type="text" class="form-control" id="inputZip" />
+                  <br>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="ParqueaderoCheck"
+                      />
+                      <label class="form-check-label" for="ParqueaderoCheck">
+                        Parqueadero
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="desayunoCheck"
+                      />
+                      <label class="form-check-label" for="desayunoCheck">
+                        Desayuno
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="piscinaCheck"
+                      />
+                      <label class="form-check-label" for="piscinaCheck">
+                        Piscina
+                      </label>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="form-group">
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    id="ParqueaderoCheck"
-                  />
-                  <label class="form-check-label" for="ParqueaderoCheck">
-                    Parqueadero
-                  </label>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    id="desayunoCheck"
-                  />
-                  <label class="form-check-label" for="desayunoCheck">
-                    Desayuno
-                  </label>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    id="piscinaCheck"
-                  />
-                  <label class="form-check-label" for="piscinaCheck">
-                    Piscina
-                  </label>
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-primary alin">Filtrar</button>
+              <button type="submit" class="btn btn-primary alin">
+                Filtrar
+              </button>
             </form>
           </div>
         </div>
@@ -187,6 +217,7 @@
               <div class="col-sm-5">
                 <div class="card-body">
                   <h5 class="card-title">Baiha beach</h5>
+                  <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
                     tutlane.
@@ -218,6 +249,7 @@
               <div class="col-sm-5">
                 <div class="card-body">
                   <h5 class="card-title">Panorama</h5>
+                  <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
                     tutlane.
@@ -249,6 +281,7 @@
               <div class="col-sm-5">
                 <div class="card-body">
                   <h5 class="card-title">Confort</h5>
+                  <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
                     tutlane.
@@ -280,6 +313,7 @@
               <div class="col-sm-5">
                 <div class="card-body">
                   <h5 class="card-title">Meriland</h5>
+                  <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
                     tutlane.
