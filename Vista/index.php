@@ -40,6 +40,9 @@
     <script src="js/script.js"></script>
   </head>
   <body>
+    <?php
+      include_once('plantillanav.php');
+    ?>
     <div class="wrap">
       <h1>RESERVA TU HOTEL</h1>
       <section class="">
@@ -58,29 +61,17 @@
         <div class="collapse" id="collapseExample">
           <div class="card card-body">
             <!---FORMULARIO DE FILTROS -->
+            <br>
             <form>
-             
               <div class="form-row">
-
-                <div class="form-group col-md-10">
-                 <!------
-                  <div class="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="inputAddress2"
-                      placeholder="Apartment, studio, or floor"
-                    />
-                  </div>
-                  -->
+                <div class="form-group col-md-8">
 
                   <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-5">
                       <label for="inputCity">Ciudad</label>
-                      <input type="text" class="form-control" id="inputCity" />
+                      <input type="text" class="form-control" id="inputCity" placeholder="Sincelejo"/>
                     </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-md-3">
                       <label for="inputState">Tipo de Habitación</label>
                       <select id="inputState" class="form-control">
                         <option selected>Suit</option>
@@ -89,15 +80,15 @@
                       </select>
                     </div>
                     <div class="form-group col-md-2">
-                      <label for="inputZip">Personas</label>
+                      <label for="inputZip">N° Personas</label>
                       <input type="number" value="2" min="1" max="8" class="form-control" />
                     </div>
                   </div>
                   <!-- -->
                   <div class="form-row">
                     <div class="form-group col-md-5">
+
                       <label for="inputCity">Rango De Precios</label>
-                      
                       <div class="input-group mb-3">
                         <div class="input-group-prepend">
                           <span class="input-group-text">$</span>
@@ -107,20 +98,20 @@
                           
                         </div>
                       </div>
-
                     </div>
-                    <div class="form-group col-md-2">
-                      <label for="inputZip">Desde</label>
-                      <input type="text" class="form-control" id="inputZip" />
+                    
+                    <div class="form-group col-md-3">
+                      <label for="inputZip">Fecha Entrada</label>
+                      <input type="text" class="form-control" id="inputZip" placeholder="2021/09/01" />
                     </div>
-                    <div class="form-group col-md-2">
-                      <label for="inputZip">Hasta</label>
-                      <input type="text" class="form-control" id="inputZip" />
+                    <div class="form-group col-md-3">
+                      <label for="inputZip">Fecha Salida</label>
+                      <input type="text" class="form-control" id="inputZip" placeholder="2021/09/15" />
                     </div>
                   </div>
 
                 </div>
-                <div class="form-group col-md-2">
+                <div class="form-group col-md-3">
                   <br>
                   <div class="form-group">
                     <div class="form-check">
@@ -128,6 +119,7 @@
                         class="form-check-input"
                         type="checkbox"
                         id="ParqueaderoCheck"
+                        name="ParqueaderoCheck"
                       />
                       <label class="form-check-label" for="ParqueaderoCheck">
                         Parqueadero
@@ -141,6 +133,7 @@
                         class="form-check-input"
                         type="checkbox"
                         id="desayunoCheck"
+                        name="desayunoCheck"
                       />
                       <label class="form-check-label" for="desayunoCheck">
                         Desayuno
@@ -154,6 +147,7 @@
                         class="form-check-input"
                         type="checkbox"
                         id="piscinaCheck"
+                        name="piscinaCheck"
                       />
                       <label class="form-check-label" for="piscinaCheck">
                         Piscina
@@ -216,7 +210,7 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Baiha beach</h5>
+                  <h5 class="card-title">Baiha beach Resort</h5>
                   <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
@@ -248,7 +242,7 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Panorama</h5>
+                  <h5 class="card-title">Panorama Hotel</h5>
                   <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
@@ -280,7 +274,7 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Confort</h5>
+                  <h5 class="card-title">Hotel Confort</h5>
                   <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
@@ -312,7 +306,7 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Meriland</h5>
+                  <h5 class="card-title">Meriland Hotel</h5>
                   <hr />
                   <p class="card-text">
                     Suresh Dasari is a founder and technical lead developer in
