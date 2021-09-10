@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-09-2021 a las 05:59:14
+-- Tiempo de generación: 10-09-2021 a las 03:17:02
 -- Versión del servidor: 10.4.19-MariaDB
 -- Versión de PHP: 8.0.6
 
@@ -53,6 +53,23 @@ INSERT INTO `cliente` (`id`, `tipo_documento`, `documento`, `nombres`, `apellido
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `habitacion`
+--
+
+CREATE TABLE `habitacion` (
+  `id` int(11) NOT NULL,
+  `id_hotel` int(20) NOT NULL,
+  `id_tipo` int(15) NOT NULL,
+  `piso` int(20) NOT NULL,
+  `numero` int(5) NOT NULL,
+  `precio` int(20) NOT NULL,
+  `minibar` int(20) NOT NULL,
+  `capacidad` int(2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `hotel`
 --
 
@@ -74,6 +91,32 @@ CREATE TABLE `hotel` (
 INSERT INTO `hotel` (`id`, `nombre`, `ciudad`, `direccion`, `puntuacion`, `telefono`, `email`, `src`) VALUES
 (2, 'ciudad bonita', 'bucaramanga', 'Cra 27 34 21', 3, 6632411, 'hotelciudadbonita@gmail.com', 's');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `reserva`
+--
+
+CREATE TABLE `reserva` (
+  `id` int(11) NOT NULL,
+  `doc_cliente` int(25) NOT NULL,
+  `id_habitacion` int(10) NOT NULL,
+  `fecha_inicio` date NOT NULL,
+  `fecha_fin` date NOT NULL,
+  `huespedes` int(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tipo_habitacion`
+--
+
+CREATE TABLE `tipo_habitacion` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(20) COLLATE utf8mb4_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
 --
 -- Índices para tablas volcadas
 --
@@ -85,9 +128,27 @@ ALTER TABLE `cliente`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `habitacion`
+--
+ALTER TABLE `habitacion`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `hotel`
 --
 ALTER TABLE `hotel`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `reserva`
+--
+ALTER TABLE `reserva`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `tipo_habitacion`
+--
+ALTER TABLE `tipo_habitacion`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -101,10 +162,28 @@ ALTER TABLE `cliente`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
+-- AUTO_INCREMENT de la tabla `habitacion`
+--
+ALTER TABLE `habitacion`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de la tabla `hotel`
 --
 ALTER TABLE `hotel`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `reserva`
+--
+ALTER TABLE `reserva`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `tipo_habitacion`
+--
+ALTER TABLE `tipo_habitacion`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
