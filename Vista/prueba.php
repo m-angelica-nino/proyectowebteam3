@@ -20,6 +20,7 @@
       rel="stylesheet"
     />
     <title>Document</title>
+
 </head>
 <body>
     <h1>texto</h1>
@@ -29,6 +30,7 @@
   <hr class="my-4">
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   <p class="lead">
+      <h1></h1>
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p>
 </div>
