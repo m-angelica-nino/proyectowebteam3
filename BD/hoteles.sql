@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-09-2021 a las 03:17:02
+-- Tiempo de generación: 11-09-2021 a las 04:06:04
 -- Versión del servidor: 10.4.19-MariaDB
 -- Versión de PHP: 8.0.6
 
@@ -63,8 +63,8 @@ CREATE TABLE `habitacion` (
   `piso` int(20) NOT NULL,
   `numero` int(5) NOT NULL,
   `precio` int(20) NOT NULL,
-  `minibar` int(20) NOT NULL,
-  `capacidad` int(2) NOT NULL
+  `minibar` tinyint(1) NOT NULL,
+  `numero_personas` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
 
 -- --------------------------------------------------------
@@ -125,13 +125,17 @@ CREATE TABLE `tipo_habitacion` (
 -- Indices de la tabla `cliente`
 --
 ALTER TABLE `cliente`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `documento` (`documento`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- Indices de la tabla `habitacion`
 --
 ALTER TABLE `habitacion`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_hotel` (`id_hotel`),
+  ADD KEY `id_tipo` (`id_tipo`);
 
 --
 -- Indices de la tabla `hotel`
@@ -143,7 +147,9 @@ ALTER TABLE `hotel`
 -- Indices de la tabla `reserva`
 --
 ALTER TABLE `reserva`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `doc_cliente` (`doc_cliente`),
+  ADD KEY `id_habitacion` (`id_habitacion`);
 
 --
 -- Indices de la tabla `tipo_habitacion`
@@ -184,6 +190,24 @@ ALTER TABLE `reserva`
 --
 ALTER TABLE `tipo_habitacion`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `habitacion`
+--
+ALTER TABLE `habitacion`
+  ADD CONSTRAINT `habitacion_ibfk_1` FOREIGN KEY (`id_hotel`) REFERENCES `hotel` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `habitacion_ibfk_2` FOREIGN KEY (`id_tipo`) REFERENCES `tipo_habitacion` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+--
+-- Filtros para la tabla `reserva`
+--
+ALTER TABLE `reserva`
+  ADD CONSTRAINT `reserva_ibfk_1` FOREIGN KEY (`doc_cliente`) REFERENCES `cliente` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`id_habitacion`) REFERENCES `habitacion` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
