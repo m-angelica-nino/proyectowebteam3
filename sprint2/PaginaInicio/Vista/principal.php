@@ -40,11 +40,12 @@
     <script src="js/script.js"></script>
   </head>
   <body>
+   
   <?php
       include_once('plantillanav.php');
     ?>
     <div class="wrap">
-
+    
       <h1>RESERVA TU HOTEL</h1>
       <section class="">
         <p>
@@ -168,8 +169,8 @@
   
       <div class="store-wrapper">
         <section class="products-list">
-          <!-- inicio de seccion de carga-->
-          <div class="card" style="width: 100%">
+     <!-- inicio de seccion de carga-->
+         <div class="card" style="width: 100%">
             <div class="row no-gutters">
               <div class="col-sm-3">
                 <img
@@ -178,30 +179,32 @@
                   alt="Suresh Dasari Card"
                 />
               </div>
-              <div class="col-sm-">
+              <div class="col-sm-4">
                 <div class="card-body">
                   <h5 class="card-title">Hotel Dann Carlton  </h5>
                   <hr />
                   <p class="card-text">
-                  N.º 1 en relación calidad-precio de 146 lugares <br> donde alojarse en Bucaramanga<br>
+                  Calle 27 28 43 Bucaramanga <br>
                   Wi-Fi gratis <br>
                   Estacionamiento gratis <br>
                   Toman medidas de seguridad <br>
                   </p>
                 </div>
               </div>
-              </div>
+            
+          
               <div class="col-sm-4">
                 <div class="card-body">
                   <h5 class="card-title"> Precios  </h5>
-                  <p class="card-text">
-                    $272.032
-                  </p>
+                   <p class="card-text">
+                     $272.032
+                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
               </div>
             </div>
-          </div>
+         </div>
+      
 
           <div class="card" style="width: 100%">
             <div class="row no-gutters">
@@ -290,8 +293,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Precios</h5>
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                    $175.000
                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
@@ -322,8 +324,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Precios</h5>
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                    $135.000
                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
