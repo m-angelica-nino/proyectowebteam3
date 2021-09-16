@@ -3,6 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.navbar{
+	background-color: rgb(0, 176, 246) !important;
+	margin: 0px !important;
+	padding: 0px 10px !important;
+}
+.nav-item :hover{
+	background-color: #8033ff !important;
+	color: #ffffff !important; 
+}
 
 body{
 	background: #E0E4E5;
