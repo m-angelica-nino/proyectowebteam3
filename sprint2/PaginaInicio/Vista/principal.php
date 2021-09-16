@@ -183,14 +183,15 @@
                   <h5 class="card-title">Hotel Dann Carlton  </h5>
                   <hr />
                   <p class="card-text">
-                  N.º 1 en relación calidad-precio de 146 lugares <br> donde alojarse en Bucaramanga<br>
+                  Calle 27 28 43 Bucaramanga <br>
                   Wi-Fi gratis <br>
                   Estacionamiento gratis <br>
                   Toman medidas de seguridad <br>
                   </p>
                 </div>
               </div>
-              </div>
+            
+          
               <div class="col-sm-4">
                 <div class="card-body">
                   <h5 class="card-title"> Precios  </h5>
@@ -201,7 +202,8 @@
                 </div>
               </div>
             </div>
-          </div>
+          
+      
 
           <div class="card" style="width: 100%">
             <div class="row no-gutters">
