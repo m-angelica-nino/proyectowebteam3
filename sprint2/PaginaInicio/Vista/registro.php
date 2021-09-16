@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <title>Reserva Hotel</title>
+    <title>Donde me quedo</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,17 +15,39 @@
     />
 
     <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/estilosprincipal.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"
       rel="stylesheet"
     />
-    <title>Document</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
 </head>
 <body>
+<?php
+      include_once('plantillanav.php');
+    ?>
 
-    <div class="jumbotron">       
+    <!-- <div class="jumbotron">  -->
     
-  </p>
+
 
 
 <div class="card" style="width: 30rem;">
@@ -38,19 +60,19 @@
     <form>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nombre</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">    
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="nombreHelp">    
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Ciudad</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">    
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="ciudadHelp">    
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Telefono</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">    
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="telefonoHelp">    
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Direccion</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">    
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="direccionHelp">    
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
@@ -65,7 +87,12 @@
     <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
   </div>
   <button type="submit" class="btn btn-primary">Crear Cuenta</button>
+  
 </form>
+  </div>
+</div>
+
+
 
     
 </body>
