@@ -178,7 +178,7 @@
                   alt="Suresh Dasari Card"
                 />
               </div>
-              <div class="col-sm-">
+              <div class="col-sm-4">
                 <div class="card-body">
                   <h5 class="card-title">Hotel Dann Carlton  </h5>
                   <hr />
