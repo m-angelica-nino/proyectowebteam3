@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <title>SPACE Reserva Hotel</title>
+    <title>Donde me quedo</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,6 +15,7 @@
     />
 
     <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/estilosprincipal.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"
       rel="stylesheet"
@@ -102,11 +103,11 @@
                     
                     <div class="form-group col-md-3">
                       <label for="inputZip">Fecha Entrada</label>
-                      <input type="text" class="form-control" id="inputZip" placeholder="2021/09/01" />
+                      <input type="date" class="form-control" id="inputZip" placeholder="2021/09/01" />
                     </div>
                     <div class="form-group col-md-3">
                       <label for="inputZip">Fecha Salida</label>
-                      <input type="text" class="form-control" id="inputZip" placeholder="2021/09/15" />
+                      <input type="date" class="form-control" id="inputZip" placeholder="2021/09/15" />
                     </div>
                   </div>
 
@@ -177,22 +178,24 @@
                   alt="Suresh Dasari Card"
                 />
               </div>
-              <div class="col-sm-5">
+              <div class="col-sm-">
                 <div class="card-body">
-                  <h5 class="card-title">Isla grande</h5>
+                  <h5 class="card-title">Hotel Dann Carlton  </h5>
                   <hr />
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                  N.º 1 en relación calidad-precio de 146 lugares <br> donde alojarse en Bucaramanga<br>
+                  Wi-Fi gratis <br>
+                  Estacionamiento gratis <br>
+                  Toman medidas de seguridad <br>
                   </p>
                 </div>
               </div>
+              </div>
               <div class="col-sm-4">
                 <div class="card-body">
-                  <h5 class="card-title">Precios</h5>
+                  <h5 class="card-title"> Precios  </h5>
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                    $272.032
                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
@@ -211,11 +214,13 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Baiha beach Resort</h5>
+                  <h5 class="card-title">Tryp</h5>
                   <hr />
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                  N.º 2 en relación calidad-precio de 146 lugares 
+                  donde alojarse en Bucaramanga <br>
+                  Wi-Fi gratis <br>
+                  Restaurante <br>
                   </p>
                 </div>
               </div>
@@ -223,8 +228,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Precios</h5>
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                    $210.700
                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
@@ -243,11 +247,11 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Panorama Hotel</h5>
+                  <h5 class="card-title">Hampton by Hilton</h5>
                   <hr />
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                  N.º 3 en relación calidad-precio de 146 lugares donde alojarse en Bucaramanga <br>
+
                   </p>
                 </div>
               </div>
@@ -255,8 +259,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Precios</h5>
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                    $202.500
                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
@@ -275,11 +278,11 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Hotel Confort</h5>
+                  <h5 class="card-title">Hotel Buenavista</h5>
                   <hr />
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                  N.º 4 en relación calidad-precio de 146 lugares donde 
+                  alojarse en Bucaramanga <br>
                   </p>
                 </div>
               </div>
@@ -307,11 +310,11 @@
               </div>
               <div class="col-sm-5">
                 <div class="card-body">
-                  <h5 class="card-title">Meriland Hotel</h5>
+                  <h5 class="card-title">Hotel Chicamocha</h5>
                   <hr />
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                  N.º 5 en relación calidad-precio de 146 lugares 
+                  donde alojarse en Bucaramanga
                   </p>
                 </div>
               </div>
@@ -327,6 +330,11 @@
               </div>
             </div>
           </div>
+
+          <div id="sfccstcr4ac5jf2k76lg5qwbpk5dq5wg4zf"></div>
+          <script type="text/javascript" src="https://counter10.stat.ovh/private/counter.js?c=cstcr4ac5jf2k76lg5qwbpk5dq5wg4zf&down=async" async></script>
+          <noscript><a href="https://www.contadorvisitasgratis.com" title="gadgets contador de visitas para blogger"><img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=cstcr4ac5jf2k76lg5qwbpk5dq5wg4zf" border="0" title="gadgets contador de visitas para blogger" alt="gadgets contador de visitas para blogger"></a></noscript>
+
            <!-- fin de seccion de carga-->
         </section>
       </div>
