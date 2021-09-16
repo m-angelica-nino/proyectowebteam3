@@ -195,10 +195,10 @@
           
               <div class="col-sm-4">
                 <div class="card-body">
-                  <h5 class="card-title"> Precios  </h5>
-                  <p class="card-text">
-                    $272.032
-                  </p>
+                    <h5 class="card-title"> Precios  </h5>
+                    <p class="card-text">
+                      $272.032
+                    </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
               </div>
@@ -293,8 +293,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Precios</h5>
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                    $175.000
                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
@@ -325,8 +324,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Precios</h5>
                   <p class="card-text">
-                    Suresh Dasari is a founder and technical lead developer in
-                    tutlane.
+                    $135.000
                   </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
