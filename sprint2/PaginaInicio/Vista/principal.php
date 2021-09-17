@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <title>Donde me quedo</title>
+    <title>Donde me quedo.com</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -175,43 +175,40 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/beach.jpg"
+                  src="../src/images/danncarlton.jpeg"
                   alt="Suresh Dasari Card"
                 />
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-5">
                 <div class="card-body">
                   <h5 class="card-title">Hotel Dann Carlton  </h5>
-                  <hr />
+                  <hr  />
                   <p class="card-text">
-                  Calle 27 28 43 Bucaramanga <br>
+                  Hotel Dann Carlton se ubica en Calle 47 #28-43 de Bucaramanga, distancia de 9 minutos del centro. <br>
+                  5 estrellas <br>
                   Wi-Fi gratis <br>
-                  Estacionamiento gratis <br>
-                  Toman medidas de seguridad <br>
+                  Restaurante <br>
                   </p>
                 </div>
               </div>
-            
-          
               <div class="col-sm-4">
                 <div class="card-body">
-                  <h5 class="card-title"> Precios  </h5>
-                   <p class="card-text">
-                     $272.032
-                   </p>
+                  <h5 class="card-title">   Precios</h5>
+                  <p class="card-text">
+                         $235.000
+                  </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
               </div>
             </div>
-         </div>
+          </div>
       
-
           <div class="card" style="width: 100%">
             <div class="row no-gutters">
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/cafetero.jpg"
+                  src="../src/images/tryp.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
@@ -220,8 +217,8 @@
                   <h5 class="card-title">Tryp</h5>
                   <hr />
                   <p class="card-text">
-                  N.º 2 en relación calidad-precio de 146 lugares 
-                  donde alojarse en Bucaramanga <br>
+                  Hotel Tryp Bucaramanga ubicado en Carrera 38 No. 48 - 66 distancia de 11 minutos del centro. <br>
+                  4 estrellas <br>
                   Wi-Fi gratis <br>
                   Restaurante <br>
                   </p>
@@ -244,7 +241,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/central.jpg"
+                  src="../src/images/hampton.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
@@ -253,7 +250,9 @@
                   <h5 class="card-title">Hampton by Hilton</h5>
                   <hr />
                   <p class="card-text">
-                  N.º 3 en relación calidad-precio de 146 lugares donde alojarse en Bucaramanga <br>
+                  Hotel Hampton By Hilton Bucaramanga se ubica en Barrio Cabecera <br>
+                  Carrera 33 #46-07 distancia de 10 minutos del centro. <br>
+                  4 estrellas <br>
 
                   </p>
                 </div>
@@ -275,7 +274,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/panorama.jpg"
+                  src="../src/images/buenavista.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
@@ -284,8 +283,9 @@
                   <h5 class="card-title">Hotel Buenavista</h5>
                   <hr />
                   <p class="card-text">
-                  N.º 4 en relación calidad-precio de 146 lugares donde 
-                  alojarse en Bucaramanga <br>
+                  Hotel Buena Vista Express se ubica en Diag 15 No. 58-40 de Bucaramanga <br>
+                  distancia de 4 minutos del centro. Aeropuerto Internacional Palonegro 7,8 km del hotel.<br>
+                  3 estrellas <br>
                   </p>
                 </div>
               </div>
@@ -306,7 +306,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/resort.jpg"
+                  src="../src/images/chicamocha.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
@@ -315,8 +315,8 @@
                   <h5 class="card-title">Hotel Chicamocha</h5>
                   <hr />
                   <p class="card-text">
-                  N.º 5 en relación calidad-precio de 146 lugares 
-                  donde alojarse en Bucaramanga
+                  Hotel Chicamocha se ubica en Calle 34 No. 31 -24 distancia de 15 minutos del centro. <br>
+                  4 estrellas <br>
                   </p>
                 </div>
               </div>
@@ -332,11 +332,23 @@
             </div>
           </div>
 
-          <div id="sfccstcr4ac5jf2k76lg5qwbpk5dq5wg4zf"></div>
-          <script type="text/javascript" src="https://counter10.stat.ovh/private/counter.js?c=cstcr4ac5jf2k76lg5qwbpk5dq5wg4zf&down=async" async></script>
-          <noscript><a href="https://www.contadorvisitasgratis.com" title="gadgets contador de visitas para blogger"><img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=cstcr4ac5jf2k76lg5qwbpk5dq5wg4zf" border="0" title="gadgets contador de visitas para blogger" alt="gadgets contador de visitas para blogger"></a></noscript>
+          <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Descubre</div>
+              <div class="card-body">
+              <h5 class="card-title">!LAS MEJORES OFERTAS¡¡¡</h5>
+                <p class="card-text">Suscríbete y verás los mejores precios.</p>
+              <div label for="exampleInputEmail1" class="form-label">email</div>
+                <a href="#" class="btn btn-primary alin">Suscribirme</a>
+            </div>
+          </div>
+
+          <div id="sfcztnm42u52y2hdcw64prc52g98t48f51g"></div>
+          <script type="text/javascript" src="https://counter10.stat.ovh/private/counter.js?c=ztnm42u52y2hdcw64prc52g98t48f51g&down=async" async></script>
+          <noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas html">
+          <img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=ztnm42u52y2hdcw64prc52g98t48f51g" border="0" title="contador de visitas html" alt="contador de visitas html"></a></noscript>
 
            <!-- fin de seccion de carga-->
+
         </section>
       </div>
     </div>
