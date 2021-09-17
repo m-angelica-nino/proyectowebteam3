@@ -36,7 +36,7 @@
           <a class="dropdown-item" href="#"></span> Mis Reservas</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#"><span class="glyphiconglyphicon-user"></span> Salir</a>
-        </div>
+
         
       </li>
     <!---- Formato para busqueda
