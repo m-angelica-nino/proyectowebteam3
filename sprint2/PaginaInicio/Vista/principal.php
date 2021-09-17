@@ -175,7 +175,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/danncarlton.jpg"
+                  src="../src/images/danncarlton.jpeg"
                   alt="Suresh Dasari Card"
                 />
               </div>
@@ -209,7 +209,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/cafetero.jpg"
+                  src="../src/images/tryp.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
@@ -273,7 +273,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/panorama.jpg"
+                  src="../src/images/buenavista.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
@@ -304,7 +304,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/resort.jpg"
+                  src="../src/images/chicamocha.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
