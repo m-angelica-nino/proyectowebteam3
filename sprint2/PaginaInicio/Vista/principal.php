@@ -56,23 +56,23 @@
             aria-expanded="false" 
             aria-controls="collapseExample"
           >
-            Filtros +
-          </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            <!---FORMULARIO DE FILTROS -->
-            <br>
-            <form>
-              <div class="form-row">
-                <div class="form-group col-md-8">
+            Filtros + 
+          </button> 
+        </p> 
+        <div class="collapse" id="collapseExample"> 
+          <div class="card card-body"> 
+            <!---FORMULARIO DE FILTROS --> 
+            <br> 
+            <form> 
+              <div class="form-row"> 
+                <div class="form-group col-md-8"> 
 
-                  <div class="form-row">
-                    <div class="form-group col-md-5">
-                      <label for="inputCity">Ciudad</label>
-                      <input type="text" class="form-control" id="inputCity" placeholder="Sincelejo"/>
-                    </div>
-                    <div class="form-group col-md-3">
+                  <div class="form-row"> 
+                    <div class="form-group col-md-5"> 
+                      <label for="inputCity">Ciudad</label> 
+                      <input type="text" class="form-control" id="inputCity" placeholder="Sincelejo"/> 
+                    </div> 
+                    <div class="form-group col-md-3"> 
                       <label for="inputState">Tipo de Habitación</label>
                       <select id="inputState" class="form-control">
                         <option selected>Suit</option>
