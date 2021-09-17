@@ -59,6 +59,7 @@
             Filtros + 
           </button> 
         </p> 
+        
         <div class="collapse" id="collapseExample"> 
           <div class="card card-body"> 
             <!---FORMULARIO DE FILTROS --> 
@@ -100,74 +101,73 @@
                         </div>
                       </div>
                     </div>
-                    
-                    <div class="form-group col-md-3">
-                      <label for="inputZip">Fecha Entrada</label>
-                      <input type="date" class="form-control" id="inputZip" placeholder="2021/09/01" />
-                    </div>
-                    <div class="form-group col-md-3">
-                      <label for="inputZip">Fecha Salida</label>
-                      <input type="date" class="form-control" id="inputZip" placeholder="2021/09/15" />
-                    </div>
-                  </div>
+                    <div class="form-group col-md-3"> 
+                      <label for="inputZip">Fecha Entrada</label> 
+                      <input type="date" class="form-control" id="inputZip" placeholder="2021/09/01" /> 
+                    </div> 
+                    <div class="form-group col-md-3"> 
+                      <label for="inputZip">Fecha Salida</label> 
+                      <input type="date" class="form-control" id="inputZip" placeholder="2021/09/15" /> 
+                    </div> 
+                  </div> 
 
-                </div>
-                <div class="form-group col-md-3">
-                  <br>
-                  <div class="form-group">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        id="ParqueaderoCheck"
-                        name="ParqueaderoCheck"
+                </div> 
+                <div class="form-group col-md-3"> 
+                  <br> 
+                  <div class="form-group"> 
+                    <div class="form-check"> 
+                      <input 
+                        class="form-check-input" 
+                        type="checkbox" 
+                        id="ParqueaderoCheck" 
+                        name="ParqueaderoCheck" 
+                      /> 
+                      <label class="form-check-label" for="ParqueaderoCheck"> 
+                        Parqueadero 
+                      </label> 
+                    </div> 
+                  </div> 
+
+                  <div class="form-group"> 
+                    <div class="form-check"> 
+                      <input 
+                        class="form-check-input" 
+                        type="checkbox" 
+                        id="desayunoCheck" 
+                        name="desayunoCheck" 
                       />
-                      <label class="form-check-label" for="ParqueaderoCheck">
-                        Parqueadero
-                      </label>
-                    </div>
-                  </div>
+                      <label class="form-check-label" for="desayunoCheck"> 
+                        Desayuno 
+                      </label> 
+                    </div> 
+                  </div> 
 
-                  <div class="form-group">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        id="desayunoCheck"
-                        name="desayunoCheck"
-                      />
-                      <label class="form-check-label" for="desayunoCheck">
-                        Desayuno
-                      </label>
-                    </div>
-                  </div>
+                  <div class="form-group"> 
+                    <div class="form-check"> 
+                      <input 
+                        class="form-check-input" 
+                        type="checkbox" 
+                        id="piscinaCheck" 
+                        name="piscinaCheck" 
+                      /> 
+                      <label class="form-check-label" for="piscinaCheck"> 
+                        Piscina 
+                      </label> 
+                    </div> 
+                  </div> 
+                </div> 
+              </div> 
 
-                  <div class="form-group">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        id="piscinaCheck"
-                        name="piscinaCheck"
-                      />
-                      <label class="form-check-label" for="piscinaCheck">
-                        Piscina
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-primary alin">
-                Filtrar
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+              <button type="submit" class="btn btn-primary alin"> 
+                Filtrar 
+              </button> 
+            </form> 
+          </div> 
+        </div> 
+      </section> 
   
-      <div class="store-wrapper">
-        <section class="products-list">
+      <div class="store-wrapper"> 
+        <section class="products-list"> 
      <!-- inicio de seccion de carga-->
      <div class="card" style="width: 100%">
             <div class="row no-gutters">
