@@ -175,35 +175,33 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/beach.jpg"
+                  src="../src/images/danncarlton.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-5">
                 <div class="card-body">
                   <h5 class="card-title">Hotel Dann Carlton  </h5>
-                  <hr />
+                  <hr  />
                   <p class="card-text">
-                  Calle 27 28 43 Bucaramanga <br>
+                  El Hotel Dann Carlton, de 5 estrellas, está en el exclusivo barrio de Bucaramanga, 
+                  en el centro de Santander. <br>
                   Wi-Fi gratis <br>
-                  Estacionamiento gratis <br>
-                  Toman medidas de seguridad <br>
+                  Restaurante <br>
                   </p>
                 </div>
               </div>
-            
-          
               <div class="col-sm-4">
                 <div class="card-body">
-                  <h5 class="card-title"> Precios  </h5>
-                   <p class="card-text">
-                     $272.032
-                   </p>
+                  <h5 class="card-title">   Precios</h5>
+                  <p class="card-text">
+                         $210.700
+                  </p>
                   <a href="#" class="btn btn-primary alin">Reservar</a>
                 </div>
               </div>
             </div>
-         </div>
+          </div>
       
 
           <div class="card" style="width: 100%">
@@ -244,7 +242,7 @@
               <div class="col-sm-3">
                 <img
                   class="card-img tam"
-                  src="../src/images/central.jpg"
+                  src="../src/images/hampton.jpg"
                   alt="Suresh Dasari Card"
                 />
               </div>
