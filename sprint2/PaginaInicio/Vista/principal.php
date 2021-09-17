@@ -169,24 +169,24 @@
       <div class="store-wrapper"> 
         <section class="products-list"> 
      <!-- inicio de seccion de carga-->
-     <div class="card" style="width: 100%">
-            <div class="row no-gutters">
-              <div class="col-sm-3">
-                <img
-                  class="card-img tam"
-                  src="../src/images/danncarlton.jpeg"
-                  alt="Suresh Dasari Card"
-                />
-              </div>
-              <div class="col-sm-5">
-                <div class="card-body">
-                  <h5 class="card-title">Hotel Dann Carlton  </h5>
-                  <hr  />
-                  <p class="card-text">
+     <div class="card" style="width: 100%"> 
+            <div class="row no-gutters"> 
+              <div class="col-sm-3"> 
+                <img 
+                  class="card-img tam" 
+                  src="../src/images/danncarlton.jpeg" 
+                  alt="Suresh Dasari Card" 
+                /> 
+              </div> 
+              <div class="col-sm-5"> 
+                <div class="card-body"> 
+                  <h5 class="card-title">Hotel Dann Carlton  </h5> 
+                  <hr  /> 
+                  <p class="card-text"> 
                   Hotel Dann Carlton se ubica en Calle 47 #28-43 de Bucaramanga, distancia de 9 minutos del centro. <br>
-                  5 estrellas <br>
-                  Wi-Fi gratis <br>
-                  Restaurante <br>
+                  5 estrellas <br> 
+                  Wi-Fi gratis <br> 
+                  Restaurante <br> 
                   </p>
                 </div>
               </div>
