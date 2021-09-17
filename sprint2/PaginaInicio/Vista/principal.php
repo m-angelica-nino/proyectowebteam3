@@ -170,7 +170,7 @@
       <div class="store-wrapper">
         <section class="products-list">
      <!-- inicio de seccion de carga-->
-         <div class="card" style="width: 100%">
+     <div class="card" style="width: 100%">
             <div class="row no-gutters">
               <div class="col-sm-3">
                 <img
