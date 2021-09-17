@@ -35,25 +35,25 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/script.js"></script>
-  </head>
-  <body>
+    <script src="js/jquery-3.2.1.js"></script> 
+    <script src="js/script.js"></script> 
+  </head> 
+  <body> 
    
   <?php
-      include_once('plantillanav.php');
-    ?>
-    <div class="wrap">
+      include_once('plantillanav.php'); 
+    ?> 
+    <div class="wrap"> 
     
-      <h1>RESERVA TU HOTEL</h1>
+      <h1>RESERVA TU HOTEL</h1> 
       <section class="">
-        <p>
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapseExample"
-            aria-expanded="false"
+        <p> 
+          <button 
+            class="btn btn-primary" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#collapseExample" 
+            aria-expanded="false" 
             aria-controls="collapseExample"
           >
             Filtros +
