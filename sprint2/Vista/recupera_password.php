@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <title>Login</title>
+    <title>Donde Me Quedo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -23,9 +23,9 @@
     ?>
     <div class="container">
         <div class="d-flex justify-content-center h-100">
-            <div class="card">
+            <div class="card4">
                 <div class="card-header">
-                    <h3>BIENVENIDO</h3>
+                    <h3>Recuperar Contraseña</h3>
                     <div class="d-flex justify-content-end social_icon">
                         <span><i ></i></span>
                         <span><i ></i></span>
@@ -34,34 +34,30 @@
                 </div>
                 <div class="card-body">
                     <form>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
+                    <p class="links">Ingresa tu usuario</p>
+                        <div class="input-group form-group">                        
+                            <div class="input-group-prepend">                                
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
                             </div>
                             <input autocomplete="off" type="text" class="form-control" placeholder="Usuario">
                             
                         </div>
+                        <p class="links">Ingresa tu correo electronico</p>
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                <span class="input-group-text"><i class="fas fa-address-card"></i></span>
                             </div>
-                            <input autocomplete="new-password" type="password" class="form-control" placeholder="Password">
+                            <input autocomplete="off" type="email" class="form-control" placeholder="Correo electronico">
                         </div>
-                        <div class="row align-items-center remember">
-                            <input type="checkbox">Recordar usuario
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Login" class="btn float-right login_btn">
+                        <p class="links">Se enviara un mensaje a tu correo electronico para recuperar tu contraseña</p>
+                        <div >
+                            <input type="submit" value="Enviar Correo" class="btn float-left login_btn2">
                         </div>
                     </form>
                 </div>
                 <div class="card-footer">
-                    <div class="d-flex justify-content-center links">
-                        No tienes una cuenta?<a href="../Vista/registro.php">Registrate</a>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <a href="../Vista/recupera_password.php">olvido su contraseña?</a>
-                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
