@@ -73,13 +73,6 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-address-card"></i></span>
                             </div>
-                            <input autocomplete="off" type="email" class="form-control" placeholder="alguien@mail.com">
-
-                        </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-address-card"></i></span>
-                            </div>
                             <input autocomplete="off" type="text" class="form-control" placeholder="Direccion">
 
                         </div>
@@ -90,7 +83,23 @@
                             <input autocomplete="off" type="text" class="form-control" placeholder="Ciudad">
 
                         </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-address-card"></i></span>
                             </div>
+                            <input autocomplete="off" type="email" class="form-control" placeholder="Correo electronico">
+
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input autocomplete="new-password" type="password" class="form-control" placeholder="Password">
+                        </div>                        
+                            </div>                            
+                        </div>
+                        <div class="row align-items-center remember">
+                            <input type="checkbox">Acepto los terminos y las condiciones
                         </div>
 
                         
