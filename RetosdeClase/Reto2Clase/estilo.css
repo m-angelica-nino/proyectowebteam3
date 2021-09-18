@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    margin: 0.5em auto;
+}
+#header{
+    height: 5%;
+    background-color: darkkhaki;
+    border-style:solid;
+    border-radius: 1.5em;        
+    margin: 0.5em;
+    padding: 10px;  
+    font: normal 15px "century gothic";
+}
+#titulo{
+    position: relative;   
+    top: 7px;
+}
+#buscar{
+    position: relative;
+    left: 80%;
+    bottom: 38px;
+}
+#nav{
+    height: 3%;    
+    border-style: solid;
+    border-radius: 1.5em;  
+    background-color: beige;      
+    margin: 0.5em;
+    padding: 10px;  
+    font: normal 15px "century gothic";    
+}
+#navtexto{
+    position: relative;
+    top: 7px;
+    
+}
+#contenido{
+    height: 60%;                 
+    font: normal 15px "century gothic";    
+}
+#section1{
+    width: 81%;
+    height: 92%;
+    float: right;
+    border-style: solid;
+    border-radius: 1.5em;
+    background-color: beige;        
+    margin: 0.5em;
+    padding: 10px;              
+    font: normal 15px "century gothic";    
+}
+#section2{
+    width: 73%;
+    height: 70%;
+    float: left;
+    border-style: solid;
+    background-color:khaki;
+    border-radius: 1.5em;        
+    margin: 0.5em;
+    padding: 10px;              
+    font: normal 15px "century gothic";
+}
+#aside1{
+    width: 18%;
+    height: 93%;
+    float: right;
+    border-style: solid;
+    background-color:moccasin;
+    border-radius: 1.5em;        
+    margin: 0.5em;
+    padding: 10px;              
+    font: normal 15px "century gothic";
+}
+#aside2{
+    width: 12%;
+    height: 37%;
+    float: left;
+    border-style: solid;
+    background-color:moccasin;
+    border-radius: 1.5em;        
+    margin: 0.5em;
+    padding: 10px;               
+    font: normal 15px "century gothic";
+}
+#footer{
+    height: 3%;    
+    background-color: darkkhaki;
+    border-style: solid;
+    border-radius: 1.5em;      
+    padding: 10px;  
+    font: normal 15px "century gothic";
+}
+#textfooter{
+    position: relative;
+    top: 7px;
+}
+#text2footer{
+    float: right;
+}
+.articulos{         
+    padding: 10px;  
+    font: normal 15px "century gothic";
+}
+img{
+    float: left;
+    padding: 5px;    
+}
+
+
+
