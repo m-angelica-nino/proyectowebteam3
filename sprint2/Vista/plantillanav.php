@@ -17,6 +17,9 @@
       <li class="nav-item">
         <a class="nav-link" href="../Vista/registro.php">Registro</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../Vista/login.php">Login</a>
+      </li>
       <!------- forrmato para deshabilitar un link
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
