@@ -19,11 +19,11 @@
 </head>
 <body>
 <?php
-    include_once 'plantillanav.php'
+    include_once 'plantillanavbaroffline.php'
     ?>
     <div class="container">
         <div class="d-flex justify-content-center h-100">
-            <div class="card4">
+            <div class="card2">
                 <div class="card-header">
                     <h3>Recuperar Contraseña</h3>
                     <div class="d-flex justify-content-end social_icon">

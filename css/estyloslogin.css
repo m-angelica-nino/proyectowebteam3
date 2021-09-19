@@ -5,6 +5,7 @@ body {
   background-image: url("../src/images/fondo-login.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 90%;
 
   font-family: "Numans", sans-serif;
