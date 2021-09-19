@@ -15,7 +15,10 @@
         <a class="nav-link" href="#">Acerca De</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../Vista/registro2.php">Registro</a>
+        <a class="nav-link" href="../Vista/registro.php">Registro</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../Vista/login.php">Login</a>
       </li>
       <!------- forrmato para deshabilitar un link
       <li class="nav-item">

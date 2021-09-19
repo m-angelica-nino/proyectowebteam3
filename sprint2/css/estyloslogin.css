@@ -105,7 +105,7 @@ input:focus {
 .login_btn {
   color: black;
   background-color: #ffc312;
-  width: 100px;
+  width: 100px;  
 }
 
 .login_btn:hover {
@@ -120,3 +120,16 @@ input:focus {
 .links a {
   margin-left: 4px;
 }
+.login_btn2 {
+  color: black;
+  background-color: #ffc312;
+  width: 150px;  
+}
+.card4 {
+  height: 430px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
