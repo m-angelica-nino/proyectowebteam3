@@ -32,15 +32,15 @@
                         <span><i></i></span> 
                         <span><i></i></span> 
                         <span><i></i></span> 
-                    </div>
-                </div>
-                <div class="card-body">
-                    <form>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input autocomplete="off" type="text" class="form-control" placeholder="Usuario">
+                    </div> 
+                </div> 
+                <div class="card-body"> 
+                    <form> 
+                        <div class="input-group form-group"> 
+                            <div class="input-group-prepend"> 
+                                <span class="input-group-text"><i class="fas fa-user"></i></span> 
+                            </div> 
+                            <input autocomplete="off" type="text" class="form-control" placeholder="Usuario"> 
 
                         </div>
                         <div class="input-group form-group">
