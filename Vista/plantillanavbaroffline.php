@@ -11,6 +11,7 @@
         <a class="nav-link" href="../Vista/principal.php">Inicio <span class="sr-only">(current)</span></a>
       </li>
       
+      
       <li class="nav-item">
         <a class="nav-link" href="#">Acerca De</a>
       </li>
