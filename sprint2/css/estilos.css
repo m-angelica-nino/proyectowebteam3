@@ -13,13 +13,13 @@
 }
 .nav-item :hover{
 	background-color: #ffc312 !important;
-	color: #ffffff !important; 
+	color: #000 !important; 
 }
 .nav-link{
 	color: #ffffff !important;
 }
 .navbar-brand{
-	color: #ffffff !important;
+	color: #ffc312 !important;
 }
 
 body{
