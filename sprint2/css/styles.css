@@ -1,31 +1,38 @@
+/* Estilos generales de todo el sitio*/
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	background: #E0E4E5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*estilos de la navbar*/
 .navbar{
 	background-color: rgba(0, 0, 0, 0.856) !important;
 	margin: 0px !important;
 	padding: 0px 10px !important;
 	
 }
+.navbar-brand{
+	color: #ffc312 !important;
+}
 .nav-item :hover{
 	background-color: #ffc312 !important;
-	color: black !important; 
+    color: black !important; 
 	
 }
 .nav-link{
 	color: #ffffff !important;
 }
-
-.navbar-brand{
-	color: #ffc312 !important;
+.nav-link:hover{
+	color: black !important; 
 }
 
-body{
-	background: #E0E4E5;
-	font-family: 'Open Sans', sans-serif;
-}
+
+
 .espaciado{
 	margin-top: 150px;
 }
@@ -105,7 +112,3 @@ body{
 	width: 40px;
 	height: 40px;
 }
-
-
-	
-
