@@ -47,6 +47,9 @@ p{
     margin: 5px;
     
 }
+.flotar-der:hover{
+  background-color: #ffc312 !important;
+}
 .btn-primary :hover{
   background-color: #ffc312 !important;
 }

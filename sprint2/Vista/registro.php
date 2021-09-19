@@ -104,6 +104,7 @@
 
                         
                         <button type="submit" class="btn btn-primary flotar-der">Crear Cuenta</button>
+                        <button type="submit" class="btn btn-primary flotar-der">Cancelar</button>
 
                     </form>
                 </div>
