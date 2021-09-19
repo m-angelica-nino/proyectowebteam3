@@ -29,7 +29,12 @@ body{
 .nav-link{
 	color: #ffffff !important;
 }
-
+.navbar-toggler-icon{
+	
+	background-color: #ffc312 !important;
+	border-radius: 4px !important;
+	margin: 0 !important;
+}
 .navbar-brand{
 	color: #ffffff !important;
 }
