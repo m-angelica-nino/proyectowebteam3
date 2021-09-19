@@ -32,6 +32,13 @@ body{
 	width: 40px;
 	height: 40px;
 }
+/*displeiy de la navbar li y ul*/
+.displey-none{
+	margin-right: 60px;
+	text-decoration: none;
+	list-style:none
+	
+}
 
 
 /*espaciodo en botones de pestaña pagos*/
@@ -100,18 +107,12 @@ body{
 }
 
 
-.displey-none{
-	margin-right: 60px;
-	text-decoration: none;
-	list-style:none
-	
-}
-.imglike{
+/* .imglike{
 	width: 100%;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
-}
+} */
 
 
 	
