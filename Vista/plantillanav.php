@@ -19,7 +19,7 @@
     <ul class="navbar-nav mr-auto displey-none">
     
     </ul>
-    <li class="nav-item dropdown displey-none">
+    <li class=" dropdown displey-none">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            <!-- Perfil <img src="" alt="foto perfil" class="imgPerfil"> -->
           <img alt="Brand" class="imgperfil" src="../src/imgUsuarios/Maria_Niño.jpeg">
@@ -28,9 +28,8 @@
           <a class="dropdown-item" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Mi Perfil</a>
           <a class="dropdown-item" href="#"></span> Mis Reservas</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#"><span class="glyphiconglyphicon-user"></span> Salir</a>
-
-        
+          <a class="dropdown-item " href="#"><span class="glyphiconglyphicon-user"></span> Salir</a>
+        </div >       
       </li>
   </div>
 </nav>
