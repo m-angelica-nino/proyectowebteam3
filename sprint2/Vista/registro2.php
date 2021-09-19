@@ -21,7 +21,7 @@
 
 <body>
     <?php
-    include_once 'plantillanav.php'
+    /* include_once 'plantillanav.php' */
     ?>
     <div class="container">
         <div class="d-flex justify-content-center h-100">
@@ -95,6 +95,7 @@
 
                         
                         <button type="submit" class="btn btn-primary flotar-der">Crear Cuenta</button>
+                        <button type="submit" class="btn btn-secondary flotar-der">Cancelar</button>
 
                     </form>
                 </div>
