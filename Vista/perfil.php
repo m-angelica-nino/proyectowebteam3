@@ -137,6 +137,46 @@
                                         <td>2021/08/18</td>
                                         <td>$ 250000</td>
                                     </tr>
+                                    <tr>
+                                        <td>Dan carton</td>
+                                        <td>Bucaramanga</td>
+                                        <td>Cl 53 18 34</td>
+                                        <td>2021/08/15</td>
+                                        <td>2021/08/18</td>
+                                        <td>$ 250000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dan carton</td>
+                                        <td>Bucaramanga</td>
+                                        <td>Cl 53 18 34</td>
+                                        <td>2021/08/15</td>
+                                        <td>2021/08/18</td>
+                                        <td>$ 250000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dan carton</td>
+                                        <td>Bucaramanga</td>
+                                        <td>Cl 53 18 34</td>
+                                        <td>2021/08/15</td>
+                                        <td>2021/08/18</td>
+                                        <td>$ 250000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dan carton</td>
+                                        <td>Bucaramanga</td>
+                                        <td>Cl 53 18 34</td>
+                                        <td>2021/08/15</td>
+                                        <td>2021/08/18</td>
+                                        <td>$ 250000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dan carton</td>
+                                        <td>Bucaramanga</td>
+                                        <td>Cl 53 18 34</td>
+                                        <td>2021/08/15</td>
+                                        <td>2021/08/18</td>
+                                        <td>$ 250000</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
