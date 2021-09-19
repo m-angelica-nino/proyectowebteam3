@@ -1,3 +1,4 @@
+/* Estilos generales de todo el sitio*/
 *{
 	margin: 0;
 	padding: 0;
@@ -8,45 +9,33 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+/*estilos de la navbar*/
 .navbar{
-	/* color: #ffffff !important;  */
 	background-color: rgba(0, 0, 0, 0.856) !important;
-	/* background-color: rgb(0, 176, 246) !important; */
 	margin: 0px !important;
 	padding: 0px 10px !important;
 	
 }
+.navbar-brand{
+	color: #ffc312 !important;
+}
 .nav-item :hover{
 	background-color: #ffc312 !important;
-	color: #000000 !important; 
+    color: black !important; 
+	
 }
 .nav-link{
 	color: #ffffff !important;
 }
-.navbar-brand{
-	color: #ffffff !important;
-}
-.imgperfil{
-	width: 100%;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-}
-/*displeiy de la navbar li y ul*/
-.displey-none{
-	margin-right: 60px;
-	text-decoration: none;
-	list-style:none
-	
+.nav-link:hover{
+	color: black !important; 
 }
 
 
-/*espaciodo en botones de pestaña pagos*/
+
 .espaciado{
 	margin-top: 150px;
 }
-
-/* check formulario filtrado en pagina principal*/
 .form-check-input{
 	width: 25px;
 	height: 25px;
@@ -57,12 +46,12 @@ body{
 	margin-top: 5px;
 }
 
-
 .wrap{
 	max-width: 1100px;
 	width: 90%;
 	margin: auto;
 }
+
 .wrap > h1{
 	color: #ecf0f5;
 	font-weight: 400;
@@ -82,17 +71,16 @@ body{
 }
 
 
-/* etilos a la lista de hoteles (despliegue de informacion)*/
 .products-list{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
+
+
 .products-list .product-item img{
 	width: 100%;
 }
-
-/* estilo de la tarjetacontenedora de cada hotel*/
 .card{
 	margin-bottom: 10px;
 	padding: 10px;		
@@ -106,14 +94,21 @@ body{
 	margin-right: 20px;
 }
 
-
-/* .imglike{
+.imgperfil{
 	width: 100%;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
-} */
-
-
+}
+.displey-none{
+	margin-right: 60px;
+	text-decoration: none;
+	list-style:none
 	
-
+}
+.imglike{
+	width: 100%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}

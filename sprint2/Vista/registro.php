@@ -19,13 +19,14 @@
     <script src="js/script.js"></script>
 
     <title>Registro</title>
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <link rel="stylesheet" href="../css/estyloslogin.css" />
+ <!--    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/estyloslogin.css" /> -->
+    <!-- <link rel="stylesheet" href="../css/styles.css" /> -->
 </head>
 
 <body>
     <?php
-    include_once 'plantillanav.php'
+    //include_once 'plantillanav.php'
     ?>
     <div class="container">
         <div class="d-flex justify-content-center h-100">
