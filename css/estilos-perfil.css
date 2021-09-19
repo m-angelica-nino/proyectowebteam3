@@ -93,3 +93,7 @@ body{
     font-weight: 600;
     color: #0062cc;
 }
+.centrar{
+    align-content: center !important;
+    text-align: center !important;
+}
