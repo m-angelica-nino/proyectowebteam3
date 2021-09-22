@@ -27,9 +27,9 @@
                 <div class="card-header">
                     <h3>BIENVENIDO</h3>
                     <div class="d-flex justify-content-end social_icon">
-                        <span><i ></i></span>
-                        <span><i ></i></span>
-                        <span><i ></i></span>
+                        <span><i></i></span>
+                        <span><i></i></span>
+                        <span><i></i></span>
                     </div>
                 </div>
                 <div class="card-body">
@@ -45,7 +45,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input autocomplete="new-password" type="password" class="form-control" placeholder="Password">
+                            <input autocomplete="new-password" type="password" class="form-control" placeholder="Contraseña">
                         </div>
                         <div class="row align-items-center remember">
                             <input type="checkbox">Recordar usuario
@@ -57,7 +57,8 @@
                 </div>
                 <div class="card-footer">
                     <div class="d-flex justify-content-center links">
-                        No tienes una cuenta?<a href="../Vista/registro.php">Registrate</a>
+                        No tienes una cuenta? <br>
+                        <a href="../Vista/registro.php">Registrate</a>
                     </div>
                     <div class="d-flex justify-content-center">
                         <a href="../Vista/recupera_password.php">olvido su contraseña?</a>
