@@ -21,8 +21,8 @@
 </head>
 
 <body>
-    <?php
-    include_once 'plantillanavbaroffline.php'
+<?php
+    include_once 'plantillanav.php'
     ?>
     <div class="container">
         <div class="d-flex justify-content-center h-100">
