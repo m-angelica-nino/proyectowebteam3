@@ -17,5 +17,18 @@ body {
 }
 .cardA-title {
   font-weight: bold;
-  color: white;
+  color: #ffc312;
+}
+.Sub_btn {
+  color: #ffc312;
+  /* background-color: #ffc312; */
+  /* width: 120px; */
+  border-color: #ffc312;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.Sub_btn:hover {
+  color: #000;
+  background-color: #ffc312;
 }
