@@ -18,7 +18,7 @@
 
 <body>
 <?php
-    include_once 'plantillanavbaroffline.php'
+    include_once 'plantillanav.php'
     ?>
     <div class="container emp-profile">
         <form method="post">

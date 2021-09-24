@@ -22,7 +22,7 @@
 
 <body>
 <?php
-    include_once 'plantillanav.php'
+    include_once 'plantillanavbarregistro.php'
     ?>
     <div class="container">
         <div class="d-flex justify-content-center h-100">
