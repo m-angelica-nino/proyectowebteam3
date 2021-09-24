@@ -262,7 +262,7 @@
           </div>
         </div>
 
-        
+
 
         <div id="sfcztnm42u52y2hdcw64prc52g98t48f51g"></div>
         <img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=ztnm42u52y2hdcw64prc52g98t48f51g" border="0" title="contador de visitas html" alt="contador de visitas html"></a></noscript>
@@ -273,14 +273,14 @@
     </div>
   </div>
   <div class="cardA text-white bg-info mb-3" style="max-width: 18rem;">
-          <div class="card-header">Descubre</div>
-          <div class="card-body">
-            <h5 class="cardA-title">!LAS MEJORES OFERTAS¡¡¡</h5>
-            <p class="card-text">Suscríbete y verás los mejores precios.</p>
-            <div label for="exampleInputEmail1" class="form-label">email</div>
-            <a href="#" class="btn btn-primary alin">Suscribirme</a>
-          </div>
-        </div>
+    <div class="card-header">Descubre</div>
+    <div class="card-body">
+      <h5 class="cardA-title">!LAS MEJORES OFERTAS¡¡¡</h5>
+      <p class="card-text">Suscríbete y verás los mejores precios.</p>
+      <div label for="exampleInputEmail1" class="form-label">email</div>
+      <a href="#" class="btn btn-primary alin">Suscribirme</a>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
