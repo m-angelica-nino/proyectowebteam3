@@ -86,7 +86,7 @@
 
                                                 <label for=""><strong>Total :</strong> $ 250.000</label>
                                                 <br>
-                                                <h5 class="card-title">Forma de pago</h5>
+                                                <h5 class="card-title">Forma de pago:</h5>
                                                 
                                                 <input name="medioPago" id="Contado" type="radio">
                                                 <label for="Contado">Contado</label>
@@ -94,12 +94,8 @@
                                                 
                                                 <input name="medioPago" id="Tarjeta" type="radio">
                                                 <label for="Tarjeta">Tarjeta</label>
-                                            </div>
-                                            
-                                        </div>
-                                        
-                                                         
-                                        
+                                            </div>                                            
+                                        </div>                                      
                                     </div>                                    
                                     
                                 </div>

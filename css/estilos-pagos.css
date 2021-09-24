@@ -2,7 +2,8 @@
     height: 415px;
     margin-top: auto;
     margin-bottom: auto;    
-    width: 800px;
+    width: 800px; 
+    
     background-color: rgba(0, 0, 0, 0.5) !important;
   }
 .titulo-pago{    
@@ -30,5 +31,5 @@
 .boton-pago{
     margin-top: 70px;
     margin-right: 20px;
-    background-color: red;
+    
 }
