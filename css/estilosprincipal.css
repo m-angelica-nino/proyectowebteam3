@@ -1,9 +1,20 @@
-html,body{
-background-image: url('../src/images/fondo-login.jpg');
-background-attachment: fixed;
-background-position: center center;
-background-size: cover;
-background-repeat: no-repeat;
-/* height: 100%; */
+html,
+body {
+  background-image: url("../src/images/fondo-login.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100%; */
 }
-
+.cardA {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.cardA-title {
+  font-weight: bold;
+  color: white;
+}
