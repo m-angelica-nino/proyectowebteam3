@@ -262,15 +262,7 @@
           </div>
         </div>
 
-        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-          <div class="card-header">Descubre</div>
-          <div class="card-body">
-            <h5 class="card-title">!LAS MEJORES OFERTAS¡¡¡</h5>
-            <p class="card-text">Suscríbete y verás los mejores precios.</p>
-            <div label for="exampleInputEmail1" class="form-label">email</div>
-            <a href="#" class="btn btn-primary alin">Suscribirme</a>
-          </div>
-        </div>
+
 
         <div id="sfcztnm42u52y2hdcw64prc52g98t48f51g"></div>
         <img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=ztnm42u52y2hdcw64prc52g98t48f51g" border="0" title="contador de visitas html" alt="contador de visitas html"></a></noscript>
@@ -278,6 +270,15 @@
         <!-- fin de seccion de carga-->
 
       </section>
+    </div>
+  </div>
+  <div class="cardA text-white bg-info mb-3" style="max-width: 18rem;">
+    <div class="card-header">Descubre</div>
+    <div class="card-body">
+      <h5 class="cardA-title">!LAS MEJORES OFERTAS¡¡¡</h5>
+      <p class="card-text">Suscríbete y verás los mejores precios.</p>
+      <div label for="exampleInputEmail1" class="form-label">email</div>
+      <a href="#" class="btn btn-primary alin">Suscribirme</a>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
