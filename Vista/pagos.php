@@ -72,9 +72,9 @@
                                             <hr />
                                             <p class="card-text">
                                                 <p class="texto-pago">
-                                                    <strong>Direccíon :</strong> Calle siempre viva 123 <br>
-                                                    <strong>Telefonos  :</strong>  32x xxx xx xx<br>
-                                                    30x xxx xx xx
+                                                    <strong>Direccíon :</strong> Calle 47 # 28-43 <br>
+                                                    <strong>Telefonos  :</strong>  60 7  6973266<br>
+                                                    centralreservas@hotelesdann.com
                                                 </p>
                                             </p>
                                         </div>
