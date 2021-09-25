@@ -54,7 +54,7 @@ body {
   border-width: 1px;
   border-style: solid;
 }
-.card img {
+.card_img{
   height: auto;
   max-width: 100%;
 }
