@@ -41,8 +41,8 @@ body {
   color: #ffc312;
 }
 .Sub_btn {
-  font-size: small;
-  top: 4px;
+  /* font-size: small;
+  top: 4px; */
   color: #ffc312;
   border-color: #ffc312;
   border-width: 1px;
