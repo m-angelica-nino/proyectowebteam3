@@ -8,8 +8,8 @@ body {
   /* height: 100%; */
 }
 .cardA {
-  position: absolute;
-  top: 70px;
+  position: fixed;
+  top: 65px;
   right: 15px;
   margin-bottom: 15px;
   padding: 15px;

@@ -266,7 +266,7 @@
       </section>
     </div>
   </div>
-  <div class="cardB text-white bg-info mb-4 rounded-top" style="max-width: 15rem;">
+  <div class="cardA text-white bg-info mb-4 rounded-top" style="max-width: 15rem;">
     <div class="card-header">Descubre</div>
     <div class="card-body">
       <h5 class="cardB-title"><br><br><br><br> !LAS MEJORES OFERTAS¡¡¡</h5>
