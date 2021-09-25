@@ -26,6 +26,9 @@ body {
   margin-bottom: 20px;
   padding: 20px;
   background-color: black !important;
+  border-color: #ffc312;
+  border-width: 1px;
+  border-style: solid;
 }
 .cardB-title {
   font-size: small;
