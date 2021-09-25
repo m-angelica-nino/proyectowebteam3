@@ -12,12 +12,13 @@ body {
   top: 65px;
   right: 15px;
   margin-bottom: 15px;
-  padding: 15px;
+ /*  padding: 15px; */
   background-color: black !important;
 }
 .cardA-title {
   font-weight: bold;
   color: #ffc312;
+ /*  font-size: 14px !important; */
 }
 .cardB {
   position: relative;
