@@ -181,7 +181,7 @@
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
-              <img class="card-img tam img-thumbnail" src="../src/images/hampton.jpg" style="max-width: 20rem;" alt="Suresh Dasari Card" />
+              <img class="card-img tam img-thumbnail" src="../src/images/hampton.jpg"  class="rounded mx-auto d-block" alt="Suresh Dasari Card" />
             </div>
             <div class="col-sm-5">
               <div class="card-body">
@@ -209,7 +209,7 @@
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
-              <img class="card-img tam" src="../src/images/buenavista.jpg" alt="Suresh Dasari Card" />
+              <img class="card-img tam img-thumbnail" src="../src/images/buenavista.jpg" alt="Suresh Dasari Card" />
             </div>
             <div class="col-sm-5">
               <div class="card-body">
@@ -236,7 +236,7 @@
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
-              <img class="card-img tam" src="../src/images/chicamocha.jpg" alt="Suresh Dasari Card" />
+              <img class="card-img tam img-thumbnail" src="../src/images/chicamocha.jpg" alt="Suresh Dasari Card" />
             </div>
             <div class="col-sm-5">
               <div class="card-body">
