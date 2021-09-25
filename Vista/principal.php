@@ -266,10 +266,10 @@
       </section>
     </div>
   </div>
-  <div class="cardA text-white bg-info mb-4 rounded-top" style="max-width: 15rem;">
+  <div class="cardB text-white bg-info mb-4 rounded-top" style="max-width: 15rem;">
     <div class="card-header">Descubre</div>
     <div class="card-body">
-      <h5 class="cardA-title"><br><br><br><br> !LAS MEJORES OFERTAS¡¡¡</h5>
+      <h5 class="cardB-title"><br><br><br><br> !LAS MEJORES OFERTAS¡¡¡</h5>
       <p class="card-text">Suscríbete y obtén el mejor precio.</p>
       <div label for="exampleInputEmail1" class="form-label"></div>
       <a href="#" class="btn Sub_btn sticky">Suscribirme</a>
