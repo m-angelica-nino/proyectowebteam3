@@ -21,7 +21,7 @@
     <h1>RESERVA TU HOTEL</h1>
     <section class="">
       <p>
-        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
           Filtros +
         </button>
       </p>
