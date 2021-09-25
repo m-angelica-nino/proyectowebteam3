@@ -42,7 +42,7 @@ body {
   color: #333;
 }
 .profile-head h6 {
-  color: #0062cc;
+  color: #254b74;
 }
 .profile-edit-btn {
   border: none;
@@ -72,7 +72,7 @@ body {
 }
 .profile-head .nav-tabs .nav-link.active {
   border: none;
-  border-bottom: 2px solid #7d9bbb;
+  border-bottom: 2px solid #385574;
   background-color: #ffc312 !important;
 }
 .profile-work {
