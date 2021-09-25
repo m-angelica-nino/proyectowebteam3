@@ -123,7 +123,7 @@
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
-              <img class="card-img tam img-thumbnail" src="../src/images/danncarlton.jpeg" alt="200x200" />
+              <img class="card-img tam img-thumbnail" style="max-width: 18rem;" src="../src/images/danncarlton.jpeg" alt="300x300" />
             </div>
             <div class="col-sm-5">
               <div class="card-body">
