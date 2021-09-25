@@ -206,7 +206,6 @@
             </div>
           </div>
         </div>
-
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
@@ -234,7 +233,6 @@
             </div>
           </div>
         </div>
-
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
@@ -261,14 +259,10 @@
             </div>
           </div>
         </div>
-
-
-
         <div id="sfcztnm42u52y2hdcw64prc52g98t48f51g"></div>
         <img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=ztnm42u52y2hdcw64prc52g98t48f51g" border="0" title="contador de visitas html" alt="contador de visitas html"></a></noscript>
 
         <!-- fin de seccion de carga-->
-
       </section>
     </div>
   </div>
