@@ -54,7 +54,10 @@ body {
   border-width: 1px;
   border-style: solid;
 }
-
+.card img {
+  height: auto;
+  max-width: 100%;
+}
 .Sub_btn:hover {
   
   color: #000;
