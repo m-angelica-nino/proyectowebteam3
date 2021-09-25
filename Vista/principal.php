@@ -123,7 +123,7 @@
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
-              <img class="card-img tam img-thumbnail"  src="../src/images/danncarlton.jpeg" alt="Suresh Dasari Card" />
+              <img class="card-img tam img-thumbnail" src="../src/images/danncarlton.jpeg" alt="Suresh Dasari Card" />
             </div>
             <div class="col-sm-5">
               <div class="card-body">
@@ -181,7 +181,7 @@
         <div class="card" style="width: 100%">
           <div class="row no-gutters">
             <div class="col-sm-3">
-              <img class="card-img tam img-thumbnail" src="../src/images/hampton.jpg"  class="rounded mx-auto d-block" alt="Suresh Dasari Card" />
+              <img class="card-img tam img-thumbnail" src="../src/images/hampton.jpg" class="rounded mx-auto d-block" alt="Suresh Dasari Card" />
             </div>
             <div class="col-sm-5">
               <div class="card-body">
@@ -266,9 +266,9 @@
       </section>
     </div>
   </div>
-  <div class="cardB text-white bg-info mb-4 rounded-top" style="max-width: 15rem;" >
+  <div class="cardB text-white bg-info mb-4 rounded-top" style="max-width: 15rem;">
     <div class="card-header">Descubre</div>
-    <div class="card-body" >
+    <div class="card-body">
       <h5 class="cardB-title"><br><br><br><br> !LAS MEJORES OFERTAS¡¡¡</h5>
       <p class="card-text">Suscríbete y obtén el mejor precio.</p>
       <div label for="exampleInputEmail1" class="form-label"></div>
