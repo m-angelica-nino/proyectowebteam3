@@ -266,13 +266,13 @@
       </section>
     </div>
   </div>
-  <div class="cardA text-white bg-info mb-5" style="max-width: 18rem;">
+  <div class="cardB text-white bg-info mb-4 rounded-top" style="max-width: 15rem;" >
     <div class="card-header">Descubre</div>
-    <div class="card-body">
-      <h5 class="cardA-title">!LAS MEJORES OFERTAS¡¡¡</h5>
-      <p class="card-text">Suscríbete y verás los mejores precios.</p>
-      <div label for="exampleInputEmail1" class="form-label">email</div>
-      <a href="#" class="btn Sub_btn alin">Suscribirme</a>
+    <div class="card-body" >
+      <h5 class="cardB-title"><br><br><br><br> !LAS MEJORES OFERTAS¡¡¡</h5>
+      <p class="card-text">Suscríbete y obtén el mejor precio.</p>
+      <div label for="exampleInputEmail1" class="form-label"></div>
+      <a href="#" class="btn Sub_btn sticky">Suscribirme</a>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
