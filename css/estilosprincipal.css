@@ -49,6 +49,11 @@ body {
   border-width: 1px;
   border-style: solid;
 }
+.Sub_btn{
+  border-color: #ffc312;
+  border-width: 1px;
+  border-style: solid;
+}
 
 .Sub_btn:hover {
   
