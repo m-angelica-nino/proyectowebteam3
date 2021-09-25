@@ -254,7 +254,7 @@
                 <p class="card-text">
                   $135.000
                 </p>
-                <a href="#" class="btn btn-primary alin">Reservar</a>
+                <a href="#" class="btn btn-dark alin">Reservar</a>
               </div>
             </div>
           </div>
