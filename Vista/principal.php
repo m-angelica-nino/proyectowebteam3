@@ -21,7 +21,7 @@
     <h1>RESERVA TU HOTEL</h1>
     <section class="">
       <p>
-        <button class="btn btn-dark Sub_btn " ; type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <button class="btn btn-light " ; type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
           Filtros +
         </button>
       </p>
@@ -143,7 +143,7 @@
                 <p class="card-text">
                   $235.000
                 </p>
-                <a href="#" class="btn btn-dark alin Sub_btn">Reservar</a>
+                <a href="#" class="btn btn-dark alin">Reservar</a>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@
                 <p class="card-text">
                   $210.700
                 </p>
-                <a href="#" class="btn btn-dark alin Sub_btn">Reservar</a>
+                <a href="#" class="btn btn-dark alin">Reservar</a>
               </div>
             </div>
           </div>
@@ -201,7 +201,7 @@
                 <p class="card-text">
                   $202.500
                 </p>
-                <a href="#" class="btn btn-dark alin Sub_btn">Reservar</a>
+                <a href="#" class="btn btn-dark alin">Reservar</a>
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@
                 <p class="card-text">
                   $175.000
                 </p>
-                <a href="#" class="btn btn-dark alin Sub_btn">Reservar</a>
+                <a href="#" class="btn btn-dark alin">Reservar</a>
               </div>
             </div>
           </div>
@@ -254,7 +254,7 @@
                 <p class="card-text">
                   $135.000
                 </p>
-                <a href="#" class="btn btn-dark alin Sub_btn">Reservar</a>
+                <a href="#" class="btn btn-dark alin">Reservar</a>
               </div>
             </div>
           </div>
@@ -266,7 +266,7 @@
       </section>
     </div>
   </div>
-  <div class="cardA text-white bg-info mb-4 rounded-top" style="max-width: 15rem;">
+  <div class="cardB text-white bg-info mb-4 rounded-top" style="max-width: 15rem;">
     <div class="card-header">Descubre</div>
     <div class="card-body">
       <h5 class="cardB-title"><br><br><br><br> !LAS MEJORES OFERTAS¡¡¡</h5>
